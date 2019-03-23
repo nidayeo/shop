@@ -1,0 +1,86 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wxfb52f2d7b2f6123a",
+	"projectname": "ugoshop",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/categories/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "商品列表页",
+					"pathName": "pages/goods_list/main",
+					"query": "keyword=小",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "搜索页",
+					"pathName": "pages/search/main",
+					"query": "keyword=小",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "商品详情页",
+					"pathName": "pages/goods_detail/main",
+					"query": "goods_id=777",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "购物车",
+					"pathName": "pages/cart/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "结算支付页",
+					"pathName": "pages/pay/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "授权登录页",
+					"pathName": "pages/auth/main",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
